@@ -3,7 +3,6 @@ gsap.fromTo(".right", {rotateX:0, rotateY:0, rotateZ:0}, {rotateX:360, rotateY:3
 gsap.fromTo(".right", {y:-50, x:-180}, {y:-50, x:180, duration:1.8,  repeat:-1, yoyo:true, ease:"linear"});
 gsap.fromTo(".demchik", {x:-180}, {x:180, duration:1.8,  repeat:-1, yoyo:true, ease:"linear"});
 $('.button').click(function(){
-  console.log('clicked');
   $(".loading").css({"display":"block"});
   gsap.fromTo(".loader-strip", {width:0}, {width:500, delay:0.2, duration:2.8, ease:"steps(12)"});
   let dice = Math.floor(Math.random() * 3) + 1;
