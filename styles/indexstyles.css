@@ -139,6 +139,7 @@ p{
   height:640px;
   top:50%;
   margin-top:-320px;
+  z-index:-1;
 }
 .warning p{
   position:relative;
